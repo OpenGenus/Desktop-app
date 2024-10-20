@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
-    // Create the browser window
+    // Browser window
     const win = new BrowserWindow({
         width: 800,
         height: 600,
@@ -14,7 +14,6 @@ function createWindow() {
     win.loadURL('https://iq.opengenus.org/');
 }
 
-// Called when Electron has finished initialization
 app.whenReady().then(createWindow);
 
 // Quit when all windows are closed
