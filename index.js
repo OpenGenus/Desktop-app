@@ -1,16 +1,18 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, screen } = require('electron');
 
 function createWindow() {
+    const { width, height } = screen.getPrimaryDisplay().workAreaSize;
+
     // Browser window
     const win = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: Math.floor(width * 0.8),  
+        height: Math.floor(height * 0.8), 
         webPreferences: {
-            nodeIntegration: true,
+            nodeIntegration: false,
         },
     });
 
-    // Load OpenGenus IQ website
+     // Load website
     win.loadURL('https://iq.opengenus.org/');
 }
 
