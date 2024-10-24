@@ -3,7 +3,7 @@
 This is the first version of the Electron Desktop app that opens the OpenGenus IQ webpage.
 
 ### Screenshot
-![Screenshot](screenshots/screenshot_1.png)
+![Screenshot](screenshots/screenshot_first_version.png)
 
 ##### Steps to run the Electron app:
 
