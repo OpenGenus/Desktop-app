@@ -10,8 +10,8 @@ This is the first version of the Electron Desktop app that opens the OpenGenus I
 Clone the Repository:
 
 ```
-git clone https://github.com/Arpish00/opengenus-electron-prototype.git
-cd opengenus-electron-prototype
+git clone https://github.com/OpenGenus/Desktop-app.git
+cd Desktop-app
 ```
 Install Dependencies: Make sure you have Node.js installed. Then, run:
 
